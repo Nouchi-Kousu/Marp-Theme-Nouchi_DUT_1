@@ -14,7 +14,7 @@ Nouchi DUT_1 是一款基于uncover，适用于大连理工大学的一款Marp�
 - 减小了多行代码块默认字体大小，以减小默认空间占用
 - 添加了横向布局，使用`<!-- _class: row -->`标识，便于横向展示图片等内容
 
-> 图中用于演示用画作均来自Pixiv画师[雨铃](https://www.pixiv.net/users/46694245)，**有裁剪**，侵权可联系删除及赔偿<br>
+> 图中用于演示用画作均来自画师[雨铃](https://www.pixiv.net/users/46694245)，**有裁剪**，侵权可联系删除及赔偿<br>
 > *非常好画师，爱来自小鹿包，大家快去关注*
 
 <div align = center><img alt='目录页' src='./preview/row.png' width = 60% ></img></div>
