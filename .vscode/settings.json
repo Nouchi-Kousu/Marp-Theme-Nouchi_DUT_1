@@ -1,0 +1,5 @@
+{
+    "markdown.marp.themes": [
+      "./theme/Nouchi_DUT_1.css",
+    ]
+  }

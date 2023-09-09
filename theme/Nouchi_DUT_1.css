@@ -1,0 +1,187 @@
+/*
+*@theme Nouchi_DUT_1
+*/
+
+@charset "UTF-8";
+@import 'uncover';
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Roboto+Mono:400,700&display=swap');
+@import '~highlight.js/styles/sunburst';
+
+* {
+    /* 指定全局字体字号字色 */
+    font-family: "microsoft yahei";
+    font-size: 32px;
+    color: #003399;
+}
+
+/* 
+*首页样式
+*/
+
+:root.lead {
+    /* 设定首页背景 */
+    background: url("./img/leadBg1.PNG");
+    padding: 100px 2em 1em;
+}
+
+:root.lead h1 {
+    /* 设定首页大标题样式 */
+    color: #C00000;
+    font-size: 72px;
+    text-shadow: #000000b7 1px 0 5px;
+    font-weight: 700;
+    margin: 0px 0 50px 0;
+}
+
+:root.lead p {
+    /* 设定首页信息样式 */
+    color: #003399;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+/*
+*目录页样式
+*/
+
+:root.catalogs {
+    /* 设定目录页背景 */
+    background: url("./img/catalogsBg1.png");
+    padding: 0 2em;
+}
+
+/* 设定目录页有序列表标号样式 */
+:root.catalogs ol {
+    counter-reset: catalogs;
+}
+
+:root.catalogs ol li::before {
+    content: counter(catalogs) " | ";
+    counter-increment: catalogs;
+    font-size: 50px;
+    font-weight: 100;
+    position: static;
+}
+
+:root.catalogs ol li:first-child {
+    /* 使用歪门邪道对齐第一项 */
+    position: relative;
+    left: 7px;
+}
+
+:root.catalogs ol li {
+    /* 设定列表项本体样式 */
+    color: #003399;
+    font-weight: 700;
+    font-size: 44px;
+    list-style: none;
+}
+
+:root.catalogs ol {
+    /* 设定列表整体样式 */
+    margin-left: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+:root.catalogs ol li:has(strong),
+:root.catalogs ol li:has(strong) strong {
+    /* 设定列表突出显示项的样式 */
+    color: #C00000;
+    font-weight: 700;
+    font-size: 44px;
+    list-style: none;
+}
+
+
+/*
+*内容页样式
+*/
+
+:root {
+    /* 设定内容页背景 */
+    background: url("./img/mainBg1.png");
+    padding: 105px 2em 0.5em;
+}
+
+:root header {
+    /* 设定内容页header部分样式 */
+    font-size: 44px;
+    color: #0070C0;
+    font-weight: 700;
+    position: absolute;
+    top: 25px;
+    left: 175px;
+    text-align: left;
+    text-shadow: #00000065 1px 0 2px;
+}
+
+:root pre>code *,
+:root pre>code {
+    /* 减小多行代码块默认字号 */
+    font-size: 22px;
+}
+
+/* 
+*横向布局实现
+*/
+
+:root.row ul {
+    /* 使用flex布局实现 */
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+:root.row ul li {
+    /* 设定列表项最大宽度 */
+    max-width: 300px;
+}
+
+/* 
+*纵向布局实现
+*/
+
+:root.column ul {
+    /* 使用flex布局实现 */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    height: 100%;
+    text-align: center;
+}
+
+/*
+*表格样式（三线表）
+*/
+
+:root table th,
+:root table td {
+    /* 清除uncover自带表格框线 */
+    border-bottom: none !important;
+}
+
+/* 设定三线表框线 */
+:root table thead {
+    border-top: #003399 3px solid;
+    border-bottom: #003399 1.5px solid;
+}
+
+:root table tbody {
+    border-bottom: #003399 3px solid;
+}
+
+/*
+*页码样式
+*/
+
+:root::after {
+    color: #003399;
+}
