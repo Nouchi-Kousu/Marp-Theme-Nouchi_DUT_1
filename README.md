@@ -31,7 +31,10 @@ Nouchi DUT_1 是一款基于uncover，适用于大连理工大学的一款Marp�
 
 > 推荐复制[test.md](./test.md)以修改使用
 
-将整个项目下载或clone到本地，在根目录中新建.md文件，在头部原信息中声明`theme: Nouchi_DUT_1`即可
+在vscode中安装插件[Marp for VS Code
+](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode&ssr=false#overview)
+
+将整个项目下载或clone到本地,使用vscode打开项目，在根目录中新建.md文件，在头部原信息中声明`theme: Nouchi_DUT_1`即可
 
 img文件夹其中的[leadGg1.png](./img/leadBg1.png)为首页背景，可自行替换以适用于其他学校或场合
 
