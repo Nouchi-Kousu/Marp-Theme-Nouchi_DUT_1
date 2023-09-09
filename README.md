@@ -38,4 +38,9 @@ Nouchi DUT_1 是一款基于uncover，适用于大连理工大学的一款Marp�
 
 img文件夹其中的[leadBg1.png](./img/leadBg1.png)为首页背景，可自行替换以适用于其他学校或场合
 
+## 鸣谢
+
+[@williowon](https://github.com/williowon)
+
+
 ![Github stars](https://img.shields.io/github/stars/Nouchi-Kousu/Marp-Theme-Nouchi_DUT_1.svg)
