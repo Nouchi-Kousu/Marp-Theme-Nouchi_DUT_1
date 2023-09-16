@@ -122,7 +122,7 @@
 :root pre>code *,
 :root pre>code {
     /* 减小多行代码块默认字号 */
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Fira Code';
 }
 
