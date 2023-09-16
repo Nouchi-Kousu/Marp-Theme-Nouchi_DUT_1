@@ -6,6 +6,7 @@
 @import 'uncover';
 @import url('https://fonts.googleapis.com/css?family=Lato:400,900|Roboto+Mono:400,700&display=swap');
 @import '~highlight.js/styles/sunburst';
+@import './theme/Fira_Code_v6.2/fira_code.css';
 
 * {
     /* 指定全局字体字号字色 */
@@ -122,6 +123,13 @@
 :root pre>code {
     /* 减小多行代码块默认字号 */
     font-size: 22px;
+    font-family: 'Fira Code';
+}
+
+:root code {
+    /* 设置单行代码块字体 */
+    font-family: 'Fira Code';
+    font-size: 30px;
 }
 
 /* 
