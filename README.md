@@ -17,7 +17,7 @@ Nouchi DUT_1 是一款基于 uncover，适用于大连理工大学的一款 Marp
 
 -   **横向** 添加了横向布局，使用`<!-- _class: row -->`标识，便于横向展示图片等内容
 
-> 图中用于演示的画作均来自画师[雨铃](https://www.pixiv.net/users/46694245)，**有裁剪**，侵权可联系删除及赔偿<br> > _非常好画师，爱来自小鹿包，大家快去关注_
+> 图中用于演示的画作均来自画师[雨铃](https://www.pixiv.net/users/46694245)，**有裁剪**，侵权可联系删除及赔偿<br>非常好画师，爱来自小鹿包，大家快去关注_
 
 <div align = center><img alt='横向' src='./preview/row.png' width = 60% ></img></div>
 
