@@ -21,7 +21,7 @@ Nouchi DUT_1 是一款基于 uncover，适用于大连理工大学的一款 Marp
 
 <div align = center><img alt='横向' src='./preview/row.png' width = 60% ></img></div>
 
--   **纵向** 添加了纵向布局，使用 `<!-- _class: column -->` 标识，便于使用**HTML**演示时逐项展示内容
+-   **纵向** 添加了纵向布局，使用 `<!-- _class: column -->` 标识，便于使用 **HTML** 演示时逐项展示内容
 
 <div align = center><img alt='纵向' src='./preview/column.png' width = 60% ></img></div>
 
