@@ -11,7 +11,7 @@ Nouchi DUT_1 是一款基于 uncover，适用于大连理工大学的一款 Marp
 
 <div align = center><img alt='目录页' src='./preview/catalogs.png' width = 60% ></img></div>
 
--   **代码块** 减小了多行代码块默认字体大小，以减小默认空间占用，替换了代码块字体为更易于展示代码的字体 [Fira Code](https://github.com/tonsky/FiraCode)
+-   **代码块** 减小了多行代码块默认字体大小，以减小默认空间占用，将代码块字体替换为更易于展示代码的字体 [Fira Code](https://github.com/tonsky/FiraCode)
 
 <div align = center><img alt='代码块' src='./preview/code.png' width = 60% ></img></div>
 
